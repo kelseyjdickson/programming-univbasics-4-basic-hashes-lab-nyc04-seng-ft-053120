@@ -1,5 +1,6 @@
 def new_hash
   # return an empty hash
+  grades = Hash.new
 end
 
 def my_hash
