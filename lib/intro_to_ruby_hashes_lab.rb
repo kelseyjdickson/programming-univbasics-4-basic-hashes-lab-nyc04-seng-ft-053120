@@ -20,7 +20,7 @@ end
 
 def id_hash_generator(number)
   id = {
-    provider_number: object.id
+    provider_number: number.object_id
   }
   # return a hash with a key :id assigned to the provided number
 end
